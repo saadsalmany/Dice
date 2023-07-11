@@ -1,17 +1,18 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Lobster&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 
 }
-body{
+
+body {
     background-color: rgb(66, 66, 66);
     min-height: 100vh;
 
 }
-.refresh{
+
+.refresh {
     color: rgb(53, 219, 78);
     font-size: 90px;
     font-family: 'Roboto';
@@ -20,7 +21,8 @@ body{
     margin-top: 30px;
     text-shadow: 3px 3px 4px black;
 }
-.winner h3{
+
+.winner h3 {
     margin-top: 30px;
     text-align: center;
     font-size: 50px;
@@ -28,16 +30,18 @@ body{
     font-family: 'Baloo 2', cursive;
 
 }
-.dices{
+
+.dices {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 200px;
-    padding: 50px;
-    
-    
+    gap: 400px;
+    padding: px;
+
+
 }
-.dice1 h6{
+
+.dice1 h6 {
     text-align: center;
     font-size: 30px;
     color: white;
@@ -45,7 +49,8 @@ body{
     padding: 40px;
     text-shadow: 3px 3px 4px black;
 }
-.dice2 h6{
+
+.dice2 h6 {
     text-align: center;
     text-shadow: 3px 3px 4px black;
     font-size: 30px;
@@ -54,3 +59,44 @@ body{
     padding: 40px;
 
 }
+
+.playbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playbtn button {
+    font-size: 34px;
+    font-family: 'Baloo 2', cursive;
+    width: 100px;
+    border-radius: 10px;
+    animation: playbtn 2s infinite;
+    cursor: pointer;
+    
+    
+    
+    
+}
+
+@keyframes playbtn {
+    0% {
+        transform: scale(100%);
+    }
+    
+    50% {
+        background-color: red;
+        transform: scale(110%);
+    }
+
+    75% {
+        transform: scale(110%);
+    }
+
+    100% {
+        background-color: yellow;
+        transform: scale(100%);
+    }
+
+}
+
