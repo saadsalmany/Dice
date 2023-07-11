@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(66, 66, 66);
+    min-height: 100vh;
+
+}
+.refresh{
+    color: rgb(53, 219, 78);
+    font-size: 90px;
+    font-family: 'Roboto';
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    margin-top: 30px;
+    text-shadow: 3px 3px 4px black;
+}
+.winner h3{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: 'Baloo 2', cursive;
+
+}
+.dices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding: 50px;
+    
+    
+}
+.dice1 h6{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'Baloo 2', cursive;
+    padding: 40px;
+    text-shadow: 3px 3px 4px black;
+}
+.dice2 h6{
+    text-align: center;
+    text-shadow: 3px 3px 4px black;
+    font-size: 30px;
+    color: white;
+    font-family: 'Baloo 2', cursive;
+    padding: 40px;
+
+}
