@@ -7,14 +7,14 @@
 }
 
 body {
-    background-color: rgb(47, 47, 47);
+    background-color: rgb(62, 62, 62);
     min-height: 100vh;
 
 }
 
 .refresh {
     color: rgb(53, 219, 78);
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: 'Roboto';
     text-align: center;
     font-family: 'Lobster', cursive;

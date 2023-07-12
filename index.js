@@ -8,14 +8,17 @@ function main() {
     document.querySelector(".dice2 img").setAttribute("src", "dice/dice" + randomNumber2 + ".png");
 
     if (randomNumber1 > randomNumber2) {
+        let c=document.querySelector(".refresh").style.color="limegreen";
         document.querySelector(".refresh").innerHTML = "You won!"
     }
     else if (randomNumber1 == randomNumber2) {
 
+        let b=document.querySelector(".refresh").style.color="Yellow";
         document.querySelector(".refresh").innerHTML = "Draw!"
     }
     else {
-        document.querySelector(".refresh").innerHTML = "Your friend won!"
+        let a=document.querySelector(".refresh").style.color="Red";
+        document.querySelector(".refresh").innerHTML = "Other won!"
 
     }
 }
