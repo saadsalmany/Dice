@@ -22,7 +22,8 @@
     }
     .playbtn button{
         position: absolute;
-        bottom: 30%;
+        bottom: 32%;
+        transform: scale(.8);
     }
 
 }

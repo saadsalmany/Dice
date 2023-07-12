@@ -31,7 +31,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 400px;
-    
+
 }
 
 .dice1 h6 {
@@ -50,44 +50,35 @@ body {
     color: white;
     font-family: 'Baloo 2', cursive;
     padding: 3rem;
-    
-}
 
-.playbtn {
+}
+.playbtn{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .playbtn button {
-    font-size: 34px;
-    font-family: 'Baloo 2', cursive;
-    width: 150px;
-    border-radius: 10px;
-    animation: playbtn 2s infinite;
-    cursor: pointer;
-    
-    
-    
-    
+    position: absolute;
+    margin: 1em;
+    font-size: 1.8em;
+    width: 4.5em;
+    padding: 0.6em;
+    background: #a80909;
+    border: none;
+    border-bottom: 8px solid #710707;
+    border-left: 4px solid #710707;
+    border-right: 4px solid #710707;
+    outline: none;
+    box-shadow: 1px 1px 8px #000;
+    color: #ffffff;
+    font-weight: bold;
+    user-select: none;
 }
 
-@keyframes playbtn {
-    0% {
-        transform: scale(100%);
-    }
-    
-    50% {
-        background-color: rgb(255, 255, 20);
-        transform: scale(110%);
-    }
-    
-    75% {
-        transform: scale(110%);
-    }
-    
-    100% {
-        transform: scale(100%);
-    }
-
+.playbtn button:active {
+    border-bottom: none;
+    margin-top: calc(1em + 8px);
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    box-shadow: none;
 }

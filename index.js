@@ -1,4 +1,7 @@
-var randomNumber1 = Math.floor(Math.random() * 6) + 1
+
+document.querySelector("button").addEventListener("click", main)
+function main(){
+    var randomNumber1 = Math.floor(Math.random() * 6) + 1
 var randomNumber2 = Math.floor(Math.random() * 6) + 1
 // var p1=document.querySelector(".refresh")
 
@@ -15,4 +18,5 @@ else if(randomNumber1==randomNumber2){
 else {
     document.querySelector(".refresh").innerHTML = "Player 2 wins!"
 
+}
 }
